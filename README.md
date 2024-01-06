@@ -1,8 +1,5 @@
-# React + Vite
+# Spark Electricians
+Welcome to **Spark Electricians**, where we pride ourselves on delivering reliable and top-notch electrical services. Our team is dedicated to ensuring your safety and satisfaction. Whether it's installations, repairs, or maintenance, count on us for all your electrical needs. Your peace of mind is our priority!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+[spark electricians](https://spark-electricians.vercel.app/)
