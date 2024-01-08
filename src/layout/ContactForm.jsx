@@ -30,7 +30,7 @@ const ContactForm = () => {
         name="name"
         value={formData.name}
         onChange={handleChange}
-        className="block px-6 md:py-3 py-1.5 rounded-xl border border-gray-700 w-full mb-4 bg-gray-100"
+        className="block px-6 md:py-3 py-1.5 rounded-xl border border-gray-700 w-full md:mb-4 mb-2 bg-gray-100"
         placeholder="Your Name"
       />
       <input
@@ -38,7 +38,7 @@ const ContactForm = () => {
         name="email"
         value={formData.email}
         onChange={handleChange}
-        className="block px-6 md:py-3 py-1.5 rounded-xl border border-gray-700 w-full mb-4 bg-gray-100"
+        className="block px-6 md:py-3 py-1.5 rounded-xl border border-gray-700 w-full md:mb-4 mb-2 bg-gray-100"
         placeholder="Your Email"
       />
       <input
@@ -46,7 +46,7 @@ const ContactForm = () => {
         name="phone"
         value={formData.phone}
         onChange={handleChange}
-        className="block px-6 md:py-3 py-1.5 rounded-xl border border-gray-700 w-full mb-4 bg-gray-100"
+        className="block px-6 md:py-3 py-1.5 rounded-xl border border-gray-700 w-full md:mb-4 mb-2 bg-gray-100"
         placeholder="Phone Number"
       />
       <input
@@ -54,7 +54,7 @@ const ContactForm = () => {
         name="purpose"
         value={formData.purpose}
         onChange={handleChange}
-        className="block px-6 md:py-3 py-1.5 rounded-xl border border-gray-700 w-full mb-4 bg-gray-100"
+        className="block px-6 md:py-3 py-1.5 rounded-xl border border-gray-700 w-full md:mb-4 mb-2 bg-gray-100"
         placeholder="Purpose of Call"
       />
       <textarea
