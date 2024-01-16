@@ -69,7 +69,7 @@ function Navabar() {
        <button className="md:hidden block" onClick={toggleMenu}>
           {menu ? <LiaTimesSolid className='text-4xl'/>:<HiMiniBars4 className='text-4xl'/>}
        </button>
-       <section className={`${menu?"translate-x-0":"-translate-x-full"} z-20 duration-500 px-6 py-3  absolute top-[88px] w-full left-0  transition-transform bg-black md:hidden block`}>
+       <section className={`${menu?"translate-x-0":"-translate-x-full"} z-10 duration-500 px-6 py-3  absolute top-[88px] w-full left-0  transition-transform bg-black md:hidden block`}>
         <div className="flex  flex-col justify-center gap-6">
         <NavLink  to="."
          duration={500} 
