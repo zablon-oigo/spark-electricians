@@ -17,10 +17,10 @@ function Hero() {
       }
   return (
     <>
-        <div className=" min-h-screen" style={bgImage}>
-      <div className="h-screen   bg-black bg-opacity-60 ">
-        <div className="flex flex-col md:flex-row md:items-center  md:gap-4  justify-between md:justify-center h-full  md:px-20  px-5">
-          <div className="w-full md:w-1/2 mb-2">
+        <div className=" relative min-h-screen" style={bgImage}>
+      <div className="h-screen  absolute top-[0px] right-0 w-full bg-black bg-opacity-60  py-24">
+        <div className="flex flex-col md:flex-row md:items-center  md:gap-4  gap-6 md:justify-center h-full  md:px-20  px-5">
+          <div className="w-full md:w-1/2 ">
             <h1 className="md:text-6xl text-3xl text-center md:text-start font-bold text-white md:mb-4 mb-2 uppercase">
             When It Comes To <span className="text-teal-500">Reliability</span>, We Are The One You Need!
             </h1>
