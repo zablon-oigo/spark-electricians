@@ -17,14 +17,14 @@ function Hero() {
       }
   return (
     <>
-        <div className=" relative min-h-screen" style={bgImage}>
-      <div className="h-screen  absolute top-[0px] right-0 w-full bg-black bg-opacity-60  py-24">
+        <div className=" min-h-screen  " style={bgImage}>
+      <div className="bg-black/50 h-full md:py-20 py-16">
         <div className="flex flex-col md:flex-row md:items-center  md:gap-4  gap-6 md:justify-center h-full  md:px-20  px-5">
           <div className="w-full md:w-1/2 ">
             <h1 className="md:text-6xl text-3xl text-center md:text-start font-bold text-white md:mb-4 mb-2 uppercase">
             When It Comes To <span className="text-teal-500">Reliability</span>, We Are The One You Need!
             </h1>
-            <p className="md:text-xl text-md leading-tight text-white text-center md:text-start">
+            <p className="md:text-xl text-lg leading-tight text-white text-center md:text-start">
             Welcome to <span className="font-bold text-teal-500">Spark Electricians</span>, where we pride ourselves on delivering reliable and top-notch electrical services. Our team is dedicated to ensuring your safety and satisfaction. 
             </p>
             <div className="mt-4 flex justify-center md:justify-start">
