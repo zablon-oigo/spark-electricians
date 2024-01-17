@@ -1,6 +1,7 @@
 
 import About from "./homepage/About"
 import Hero from "./homepage/Hero"
+import { Services } from "./homepage/Services"
 
 function Home() {
 
@@ -9,6 +10,7 @@ function Home() {
     <>
 <Hero/>
 <About/>
+<Services/>
     </>
   )
 }
