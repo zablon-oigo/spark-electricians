@@ -1,52 +1,72 @@
-import React from 'react'
-import about from '../../assets/images/about.png'
-import { CiCircleCheck } from "react-icons/ci";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import aboutImage from '../../assets/images/about.png';
+import { FaCheckCircle } from 'react-icons/fa';
+import AboutCard from '../../layout/AboutCard';
+
+
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+     }, []);
   return (
     <>
-    <div className="min-h-screen md:px-20 md:py-20 px-5 py-5 bg-gradient-to-br from-gray-900 to-slate-800 text-white">
-        <h2 className="text-5xl font-bold text-center capitalize">
-            quality work through dedication and passion
+      <div className="min-h-screen md:px-20 md:py-20 px-5 py-5 bg-gradient-to-br from-gray-900 to-slate-800 text-white">
+        <h2 className="md:text-3xl text-2xl text-gray-600 font-bold text-center capitalize">
+          Delivering Excellence with Commitment and Expertise
         </h2>
-        <p className="text-2xl text-center mt-5 font-light">
-            Spark Electricians is a leading provider of reliable and top-notch electrical services. We are dedicated to ensuring your safety and satisfaction.
-        </p>
-        <div className="my-16 flex items-center gap-10 justify-between">
-            <div className="w-full md:w-3/4">
-            <img src={about} alt="" className='' />
-            </div>
-            <div className="w-full md:2/5">
-                <h2 className="text-3xl text-center md:text-start">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h2>
-                <ul className="text-xl w-full flex flex-col">
-                    <li className="inline-flex items-center gap-1">
-                    <CiCircleCheck  className='text-2xl text-rose-500'/>
-                    Lorem ipsum dolor sit amet.
-                    </li>
-                    <li className="inline-flex items-center gap-1">
-                    <CiCircleCheck  className='text-2xl text-rose-500'/>
-                    Lorem ipsum dolor sit amet.
-                    </li>
-                    <li className="inline-flex items-center gap-1">
-                    <CiCircleCheck  className='text-2xl text-rose-500'/>
-                    Lorem ipsum dolor sit amet.
-                    </li>
-                    <li className="inline-flex items-center gap-1">
-                    <CiCircleCheck  className='text-2xl text-rose-500'/>
-                    Lorem ipsum dolor sit amet.
-                    </li>
-                    <li className="inline-flex items-center gap-1">
-                    <CiCircleCheck  className='text-2xl text-rose-500'/>
-                    Lorem ipsum dolor sit amet.
-                    </li>
-                  
-                </ul>
-            </div>
+        
+        <div className="my-28 flex flex-col md:flex-row items-center justify-center gap-10" data-aos="fade-up" data-easing="ease-in-out" data-aos-duration="3000">
+          <div className="w-full md:w-3/5">
+            <img src={aboutImage} alt="About Spark Electricians" className="w-full" />
+          </div>
+          <div className="w-full md:w-1/3 mt-4">
+            <h2 className="text-xl text-gray-400 text-center md:text-start">
+              Our Commitment to Excellence Includes:
+            </h2>
+            <ul className="grid grid-cols-1 place-content-center  gap-4 mt-6">
+              <li className="flex  items-center gap-2">
+                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <span className="md:text-md text-sm text-gray-300">
+                Top-notch electrical installations and repairs.
+                </span>
+              </li>
+              <li className="flex  items-center gap-2">
+                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <span className="md:text-md text-sm text-gray-300">
+                Prompt and reliable service delivery.
+                </span>
+              </li>
+              <li className="flex items-center justify-center gap-2">
+                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <span className="md:text-md text-sm text-gray-300">
+                Transparent communication and customer satisfaction.
+                </span>
+              </li>
+              <li className="flex  items-center gap-2">
+                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <span className="md:text-md text-sm text-gray-300">
+                Highly skilled and professional electricians.
+                </span>
+              </li>
+              <li className="flex  items-center gap-2">
+                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <span className="md:text-md text-sm text-gray-300">
+                Affordable and competitive pricing.
+                </span>
+              </li>
+            </ul>
+          </div>
+          
         </div>
-    </div>
+        <div className="" data-aos="fade-up" data-easing="linear" data-aos-duration="3000">
+            <AboutCard/>
+           
+          </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
