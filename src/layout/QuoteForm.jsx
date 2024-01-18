@@ -26,12 +26,12 @@ const QuoteForm = () => {
 
   return (
     <>
-   <div className="bg-gradient-to-br from-gray-900 to-slate-800 text-white px-10 py-10">
+   <div className="bg-gradient-to-br from-gray-900 to-slate-800 text-white md:px-10 px-5 py-5 md:py-10">
    <h2 className="md:text-4xl text-xl font-semibold capitalize text-center mb-6">
     request a quote today
     </h2>
     <form action="" className="">
-   <div className="flex items-center flex-col md:flex-row gap-2 justify-center">
+   <div className="flex items-center flex-col md:flex-row nd:gap-2 justify-center">
    <input
         type="text"
         name="name"
@@ -66,7 +66,7 @@ const QuoteForm = () => {
         className="w-full  px-6 rounded-xl md:py-2 border  text-gray-700 "
         placeholder="Message"
       ></textarea>
-      <div className="mt-6 flex justify-center md:justify-start">
+      <div className="md:mt-6 mt-2 flex justify-center md:justify-start">
       <button
         type="submit"
         className="md:w-1/2 w-full bg-teal-500 hover:bg-teal-600 text-white md:px-6 px-4 py-3 rounded-xl"
