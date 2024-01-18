@@ -37,8 +37,8 @@ const Card = () => {
               cards.map((card)=>{
                   return(
                     
-                    <div className="relative" key={card.id} style={{backgroundImage:`url(${card.image})`,backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat', height:'300px', width:'300px'}}>
-                        <div className="rounded-lg abolute bg-black/80 gap-2 w-full h-full top-0 left-0 flex flex-col items-center  justify-center">
+                    <div className="relative md:w-[300px] w-full " key={card.id} style={{backgroundImage:`url(${card.image})`,backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat', height:'300px', width:'300px'}}>
+                        <div className="rounded-lg abolute bg-black/80 gap-2 w-full h-full py-4 top-0 left-0 flex flex-col items-center  justify-center">
                             <span className="text-6xl  rounded-full text-white px-2 py-2">
                                 {card.icon}
                             </span>
