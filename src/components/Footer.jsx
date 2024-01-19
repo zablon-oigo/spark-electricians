@@ -1,6 +1,10 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 import logo from '../assets/images/logo.png'
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
 function Footer() {
   return (
     <>
@@ -12,7 +16,7 @@ function Footer() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint aperiam impedit eaque nostrum fugit qui eos repellat. Sed dicta dolores adipisci explicabo saepe deleniti ut, rem earum. Porro, architecto. Itaque voluptatum at odio dicta molestias voluptatem deleniti rerum dolorem?
             </p>
           </div>
-          <div className="w-full md:w-3/4 flex items-center ">
+          <div className="w-full md:w-3/4 flex justify-around ">
            <div className="">
            <h2 className="text-3xl font-bold text-white mb-6">
               Quick Links
@@ -40,6 +44,25 @@ function Footer() {
           faq
         </NavLink>
             </div>
+           </div>
+           <div className="">
+           <h2 className="text-3xl font-bold text-white mb-6">
+              Location
+            </h2>
+            <div className="">
+              <p className="text-white font-light">
+                123 Main Street, Anytown USA <br/>
+                p.o box 123
+              </p>
+              <div className="mt-4 flex gap-4 items-center">
+                        <FaFacebookSquare className='text-4xl text-white'/>
+                        <FaInstagram className='text-4xl text-white'/>
+                        <FaTwitter className='text-4xl text-white'/>
+                        <FaYoutube className='text-4xl text-white'/>
+                        </div>
+              
+            </div>
+           
            </div>
           </div>
 
