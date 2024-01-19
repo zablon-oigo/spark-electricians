@@ -28,6 +28,13 @@ function About() {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed amet, quibusdam enim quis laboriosam impedit doloribus nemo ab neque illum tempore magni unde? Corrupti, ipsam saepe accusamus facilis rem, corporis blanditiis, repellendus quas vitae at consectetur asperiores optio iusto esse.
           </p>
         </div>
+        <div className="my-10 h-[300px] bg-gray-100 md:px-20 px-5 ">
+          <div className="flex items-center justify-center gap-2">
+            <div className="w-1/3"></div>
+            <div className="w-1/3"></div>
+          </div>
+
+        </div>
     </div>
     </>
   )
