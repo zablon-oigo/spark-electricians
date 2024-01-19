@@ -31,7 +31,7 @@ const QuoteForm = () => {
     request a quote today
     </h2>
     <form action="" className="">
-   <div className="flex items-center flex-col md:flex-row nd:gap-2 justify-center">
+   <div className="flex items-center flex-col md:flex-row md:gap-2 justify-center">
    <input
         type="text"
         name="name"
