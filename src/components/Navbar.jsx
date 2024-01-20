@@ -22,6 +22,9 @@ function Navabar() {
 
   return (
     <>
+    <div className="bg-rose-500 p-6">
+      <p className="text-center text-2xl text-white">This Project Is Under Construction</p>
+    </div>
     <nav className="relative flex justify-between items-center bg-gray-100 md:px-20 py-4 px-5 drop-shadow-lg">
       <div className="">
         <NavLink to={"."} smooth={true} spy={true} className=' flex items-center justify-center '>
