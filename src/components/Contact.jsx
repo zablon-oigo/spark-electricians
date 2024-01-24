@@ -7,6 +7,12 @@ function Contact() {
       <h2 className="md:text-6xl text-3xl font-semibold text-gray-600 text-center">
         Contact
       </h2>
+      <div className="my-40">
+        <div className="flex items-center justify-between ">
+          <div className=""></div>
+          <div className=""></div>
+        </div>
+      </div>
     </div>
     </>
   )
