@@ -15,8 +15,8 @@ function NotFound() {
     <>
     <div className="min-h-screen md:px-20 md:py-20 px-5 py-5" style={bgImages}>
  <div className="my-40 flex items-center gap-6 justify-center flex-col">
- <h1>Page Not Found </h1>
-      <p>
+ <h1 className='md:text-6xl text-4xl font-bold text-rose-500'>Page Not Found </h1>
+      <p className='text-xl font-semibold text-slate-600'>
         The page you're looking for does not exist !!!!
       </p>
       <div className="">
