@@ -5,15 +5,15 @@ import residentials from '../assets/images/residentials.jpg'
 function Services() {
   return (
     <>
-    <div className="minh-screen md:px-20 md:py-20 px-5 py-5">
-      <h2 className="capitalize  font-semibold text-center md:text-6xl text-4xl">
+    <div className="minh-screen md:px-20 md:py-20 px-5 py-5 bg-gradient-to-b from-slate-900 to-gray-800">
+      <h2 className="text-white capitalize  font-semibold text-center md:text-6xl text-4xl">
         services
       </h2>
       <div className="my-20">
-        <h2 className="text-center text-4xl">
+        <h2 className="text-white text-center text-4xl">
           what we do
         </h2>
-        <p className="">
+        <p className="text-white font-light mt-4 text-center md:text-start">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam totam omnis eaque ex. Assumenda culpa, tempora facilis, iure ullam quas necessitatibus voluptate itaque nobis quia dolore nesciunt et vitae facere, omnis cum exercitationem error? Assumenda asperiores iusto, aliquam deleniti explicabo labore rem vitae adipisci dolorem laudantium totam magnam natus optio quis dolores, inventore quam ad consequuntur esse! Earum, error sapiente.
         </p>
       </div>
@@ -23,7 +23,7 @@ function Services() {
             <img src={residentials} className="rounded-lg " />
           </div>
           <div className="w-full md:w-1/3">
-            <p className="font-light">
+            <p className="font-semibold text-2xl text-white">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
             </p>
           </div>
@@ -33,7 +33,7 @@ function Services() {
             <img src={commercial} className="rounded-lg " />
           </div>
           <div className="w-full md:w-1/3">
-            <p className="font-light">
+            <p className="font-semibold text-2xl text-white">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
             </p>
           </div>
@@ -43,7 +43,7 @@ function Services() {
             <img src={industrial} className="rounded-lg " />
           </div>
           <div className="w-full md:w-1/3">
-            <p className="font-light">
+            <p className="font-semibold text-2xl text-white">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
             </p>
           </div>
