@@ -29,7 +29,7 @@ function Services() {
           </div>
         </div>
         <div className="flex md:flex-row-reverse flex-col items-center justify-between gap-6 my-8">
-          <div className="w-full ">
+          <div className="w-full md:w-3/4">
             <img src={commercial} className="rounded-lg " />
           </div>
           <div className="w-full md:w-1/3">
