@@ -23,7 +23,10 @@ function Services() {
             <img src={residentials} className="rounded-lg " />
           </div>
           <div className="w-full md:w-1/3">
-            <p className="font-semibold text-2xl text-white">
+          <h2 className="text-3xl text-gray-500 text-center md:text-start mb-2">
+              Residentials Services
+            </h2>
+            <p className="font-light text-xl text-gray-500">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
             </p>
           </div>
@@ -33,7 +36,10 @@ function Services() {
             <img src={commercial} className="rounded-lg " />
           </div>
           <div className="w-full md:w-1/3">
-            <p className="font-semibold text-2xl text-white">
+          <h2 className="text-3xl text-gray-500 text-center md:text-start mb-2">
+              Commercials Services
+            </h2>
+            <p className="font-light text-xl text-gray-500">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
             </p>
           </div>
@@ -43,7 +49,10 @@ function Services() {
             <img src={industrial} className="rounded-lg " />
           </div>
           <div className="w-full md:w-1/3">
-            <p className="font-semibold text-2xl text-white">
+            <h2 className="text-3xl text-gray-500 text-center md:text-start mb-2">
+              Industrial Services
+            </h2>
+            <p className="font-light text-xl text-gray-500">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
             </p>
           </div>
