@@ -8,9 +8,28 @@ function Contact() {
         Contact
       </h2>
       <div className="my-40">
-        <div className="flex items-center justify-between ">
-          <div className=""></div>
-          <div className=""></div>
+        <div className="flex items-center justify-between flex-col md:flex-row ">
+          <div className="">
+            <h2 className="">
+              head office
+            </h2>
+            <p className="">
+
+            </p>
+          </div>
+          <div className="">
+            <img src="" alt="" className="" />
+          </div>
+        </div>
+        <div className="flex items-center justify-between flex-col md:flex-row">
+          <div className="">
+            <h2 className="">
+              regional offices
+            </h2>
+          </div>
+          <div className="">
+            
+          </div>
         </div>
       </div>
     </div>
