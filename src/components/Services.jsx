@@ -14,7 +14,7 @@ function Services() {
           what we do
         </h2>
         <p className="text-white font-light mt-4 text-center md:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam totam omnis eaque ex. Assumenda culpa, tempora facilis, iure ullam quas necessitatibus voluptate itaque nobis quia dolore nesciunt et vitae facere, omnis cum exercitationem error? Assumenda asperiores iusto, aliquam deleniti explicabo labore rem vitae adipisci dolorem laudantium totam magnam natus optio quis dolores, inventore quam ad consequuntur esse! Earum, error sapiente.
+        We offer a wide range of services tailored to meet your needs. Our dedicated team strives to deliver exceptional results and customer satisfaction. Explore our services below.
         </p>
       </div>
       <div className="my-10">
@@ -27,7 +27,7 @@ function Services() {
               Residentials Services
             </h2>
             <p className="font-light text-xl text-center md:text-start text-gray-500">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
+            Our residential services are designed to enhance your living spaces. From renovations to interior design, we bring creativity and functionality to every project, ensuring your home is a reflection of your lifestyle.
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Services() {
               Commercials Services
             </h2>
             <p className="font-light text-xl text-center md:text-start text-gray-500">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
+            Elevate your business with our commercial services. We provide comprehensive solutions for office spaces, retail establishments, and more. Let us contribute to the success and aesthetics of your commercial ventures.
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@ function Services() {
               Industrial Services
             </h2>
             <p className="font-light text-xl text-center md:text-start text-gray-500">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quas quos sint repellendus praesentium quod eos vero odit, laborum fugit?
+            Our industrial services cater to the unique requirements of industrial facilities. We focus on efficiency, safety, and innovation to optimize your industrial processes. Partner with us for reliable and effective industrial solutions.
             </p>
           </div>
         </div>
