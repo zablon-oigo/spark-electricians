@@ -8,10 +8,25 @@ function Contact() {
       <h2 className="md:text-6xl  text-3xl font-semibold  text-center">
         Contact Us
       </h2>
-      <div className="my-40">
+      <div className="my-20">
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="">
+        <div className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="bg-white p-6 rounded-xl shadow-2xl">
+          <p className="text-lg text-center text-gray-800">Visit us at:</p>
+          <p className="text-lg text-center text-gray-800">123 Main Street</p>
+          <p className="text-lg text-center text-gray-800">Cityville, Country</p>
+            
+          </div>
+          <div className="bg-white p-6 rounded-xl shadow-2xl">
+          <p className="text-lg text-center text-gray-800">Visit us at:</p>
+          <p className="text-lg text-center text-gray-800">123 Main Street</p>
+          <p className="text-lg text-center text-gray-800">Cityville, Country</p>
+            
+          </div>
+          <div className="bg-white p-6 rounded-xl shadow-2xl">
+          <p className="text-lg text-center text-gray-800">Visit us at:</p>
+          <p className="text-lg text-center text-gray-800">123 Main Street</p>
+          <p className="text-lg text-center text-gray-800">Cityville, Country</p>
             
           </div>
          
