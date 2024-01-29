@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../layout/ContactForm'
+
 function Contact() {
   return (
     <>
@@ -39,7 +39,7 @@ function Contact() {
           get in touch
         </h2>
         <div className="my-10">
-          <ContactForm/>
+         
         </div>
         </div>
       </div>
