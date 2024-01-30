@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { CiLocationOn } from "react-icons/ci";
 function Contact() {
   return (
     <>
@@ -11,24 +11,29 @@ function Contact() {
       <div className="my-20">
         
         <div className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-white p-6 rounded-xl shadow-2xl">
-          <p className="text-lg text-center text-gray-800">Visit us at:</p>
-          <p className="text-lg text-center text-gray-800">123 Main Street</p>
-          <p className="text-lg text-center text-gray-800">Cityville, Country</p>
-            
-          </div>
-          <div className="bg-white p-6 rounded-xl shadow-2xl">
-          <p className="text-lg text-center text-gray-800">Visit us at:</p>
-          <p className="text-lg text-center text-gray-800">123 Main Street</p>
-          <p className="text-lg text-center text-gray-800">Cityville, Country</p>
-            
-          </div>
-          <div className="bg-white p-6 rounded-xl shadow-2xl">
-          <p className="text-lg text-center text-gray-800">Visit us at:</p>
-          <p className="text-lg text-center text-gray-800">123 Main Street</p>
-          <p className="text-lg text-center text-gray-800">Cityville, Country</p>
-            
-          </div>
+        <div className="bg-white p-6 rounded-xl shadow-2xl">
+  <CiLocationOn className='text-4xl text-slate-900'/>
+  <div className="text-lg text-center text-gray-800">
+    <p>Visit us at:</p>
+    <p>123 Main Street</p>
+    <p>Cityville, Country</p>
+  </div>
+</div>
+
+<div className="bg-white p-6 rounded-xl shadow-2xl">
+  <div className="text-lg text-center text-gray-800">
+    <p>Office hours</p>
+    <p>Monday to Friday: 9 AM - 5 PM</p>
+  </div>
+</div>
+
+<div className="bg-white p-6 rounded-xl shadow-2xl">
+  <div className="text-lg text-center text-gray-800">
+    <p>Reach us via socials</p>
+    <p>Follow us on Twitter, Facebook, and Instagram</p>
+  </div>
+</div>
+
          
         </div>
         <div className="">
