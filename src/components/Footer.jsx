@@ -12,8 +12,10 @@ function Footer() {
         <div className="flex items-center gap-4 justify-center flex-col md:flex-row">
           <div className="w-full md:w-2/5">
             <img src={logo} alt="" className='bg-white rounded mb-6'/>
-            <p className="text-white font-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint aperiam impedit eaque nostrum fugit qui eos repellat. Sed dicta dolores adipisci explicabo saepe deleniti ut, rem earum. Porro, architecto. Itaque voluptatum at odio dicta molestias voluptatem deleniti rerum dolorem?
+            <p className="text-white text-lg font-light">
+            For over 20 years, Spark Electricians has been keeping homes and businesses in Anytown USA bright and safe. 
+              We're committed to providing reliable, high-quality electrical services at competitive prices. 
+              Call us today for a free consultation!
             </p>
           </div>
           <div className="w-full md:w-3/4 flex justify-around ">
