@@ -1,5 +1,7 @@
 import React from 'react'
 import { CiLocationOn } from "react-icons/ci";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
 function Contact() {
   return (
     <>
@@ -11,7 +13,7 @@ function Contact() {
       <div className="my-20">
         
         <div className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-white p-6 rounded-xl shadow-2xl">
+        <div className="bg-white p-6 rounded-xl shadow-2xl flex flex-col items-center justify-center gap-4">
   <CiLocationOn className='text-4xl text-slate-900'/>
   <div className="text-lg text-center text-gray-800">
     <p>Visit us at:</p>
@@ -20,17 +22,19 @@ function Contact() {
   </div>
 </div>
 
-<div className="bg-white p-6 rounded-xl shadow-2xl">
+<div className="bg-white p-6 rounded-xl shadow-2xl flex flex-col items-center justify-center gap-4">
+<MdOutlineEmail className='text-4xl text-slate-900'/>
   <div className="text-lg text-center text-gray-800">
-    <p>Office hours</p>
-    <p>Monday to Friday: 9 AM - 5 PM</p>
+    <p>Email</p>
+    <p>hello@info.com</p>
   </div>
 </div>
 
-<div className="bg-white p-6 rounded-xl shadow-2xl">
+<div className="bg-white p-6 rounded-xl shadow-2xl flex flex-col items-center justify-center gap-4">
+<FaPhone className="text-2xl text-center text-gray-800 "/>
   <div className="text-lg text-center text-gray-800">
-    <p>Reach us via socials</p>
-    <p>Follow us on Twitter, Facebook, and Instagram</p>
+    <p>Phone</p>
+    <p>123-456-789</p>
   </div>
 </div>
 
