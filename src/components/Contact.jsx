@@ -2,6 +2,7 @@ import React from 'react'
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
+import MessageForm from '../layout/MessageForm';
 function Contact() {
   return (
     <>
@@ -48,7 +49,7 @@ function Contact() {
           get in touch
         </h2>
         <div className="my-10">
-         
+         <MessageForm/>
         </div>
         </div>
       </div>
