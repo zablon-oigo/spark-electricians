@@ -15,7 +15,7 @@ function Contact() {
         
         <div className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="bg-white p-6 rounded-xl shadow-2xl flex flex-col items-center justify-center gap-4">
-  <CiLocationOn className='text-4xl text-slate-900'/>
+  <CiLocationOn className='text-6xl bg-gray-800 px-2 py-2 rounded-full text-center text-white '/>
   <div className="text-lg text-center text-gray-800">
     <p>Visit us at:</p>
     <p>123 Main Street</p>
@@ -24,7 +24,7 @@ function Contact() {
 </div>
 
 <div className="bg-white p-6 rounded-xl shadow-2xl flex flex-col items-center justify-center gap-4">
-<MdOutlineEmail className='text-4xl text-slate-900'/>
+<MdOutlineEmail className='text-6xl bg-gray-800 px-2 py-2 rounded-full text-center text-white '/>
   <div className="text-lg text-center text-gray-800">
     <p>Email</p>
     <p>hello@info.com</p>
@@ -32,7 +32,7 @@ function Contact() {
 </div>
 
 <div className="bg-white p-6 rounded-xl shadow-2xl flex flex-col items-center justify-center gap-4">
-<FaPhone className="text-2xl text-center text-gray-800 "/>
+<FaPhone className="text-6xl bg-gray-800 px-2 py-2 rounded-full text-center text-white  "/>
   <div className="text-lg text-center text-gray-800">
     <p>Phone</p>
     <p>123-456-789</p>
