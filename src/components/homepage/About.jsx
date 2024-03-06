@@ -27,33 +27,34 @@ const About = () => {
             </h2>
             <ul className="grid grid-cols-1 place-content-center  gap-4 mt-6">
               <li className="flex  items-center gap-2">
-                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <FaCheckCircle className="text-4xl text-rose-500 bg-white rounded-full " />
                 <span className="md:text-md text-sm text-gray-300">
                 Top-notch electrical installations and repairs.
                 </span>
               </li>
               <li className="flex  items-center gap-2">
-                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <FaCheckCircle className="text-4xl text-rose-500 bg-white  rounded-full" />
                 <span className="md:text-md text-sm text-gray-300">
                 Prompt and reliable service delivery.
                 </span>
               </li>
-              <li className="flex items-center justify-center gap-2">
-                <FaCheckCircle className="text-4xl text-rose-500 " />
-                <span className="md:text-md text-sm text-gray-300">
-                Transparent communication and customer satisfaction.
-                </span>
-              </li>
+
               <li className="flex  items-center gap-2">
-                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <FaCheckCircle className="text-4xl text-rose-500 bg-white  rounded-full" />
                 <span className="md:text-md text-sm text-gray-300">
                 Highly skilled and professional electricians.
                 </span>
               </li>
               <li className="flex  items-center gap-2">
-                <FaCheckCircle className="text-4xl text-rose-500 " />
+                <FaCheckCircle className="text-4xl text-rose-500 bg-white  rounded-full" />
                 <span className="md:text-md text-sm text-gray-300">
                 Affordable and competitive pricing.
+                </span>
+              </li>
+              <li className="flex items-center justify-center gap-2">
+                <FaCheckCircle className="text-4xl cols-span-1 text-rose-500 bg-white rounded-full" />
+                <span className="md:-mr-6 md:text-md text-sm text-gray-300">
+                Transparent communication and customer satisfaction.
                 </span>
               </li>
             </ul>
